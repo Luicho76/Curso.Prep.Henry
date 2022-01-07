@@ -1,0 +1,59 @@
+Introduccion al JS
+
+El Javascrip es el lenguaje de preogramacion mas usado en una pagina web
+
+Conceptos Basicos: 
+* Variables (es una forma de almacenar datos para ser usados despues)
+** Comandos
+          var (variable en ES5)
+          let (variable en ES6 -difiere de lo anterior al crear un "nivel scope")
+          const (variable que no se puede cambiar - en ES6)
+          console.log (imprime en la consola todo lo que se ponga entre parentesis)
+
+* Tipos de Datos
+** Strings (Texto o bloques de textos que van entre comillas " ")
+** Numbres (Numeros, No van entre comillas y pueden ser positivos o negativos)
+** Boolean (Datos de dos opciones, activar o desactivar, verdadeo (true) o falso (false))
+
+* Operadores (son funciones - simbolos de +,-,*,/)
+
+* Precedencia de Operadores y asocsiatuvudad
+  (Ver tabla de precedencia para identificar como resolvera el interprete)
+
+* Math (Operadores matematicos como calculadora)
+
+* Objetos globales y metodos
+** Metodo Math
+*** Math.pow (devuelve un numero elevado a un exponente)
+*** Math.round (redondea un numero al numero entero mas cercano)
+*** Math.floor (redondeara un numero al numero entero mas cercano pero hacia abajo)
+*** Math.ceil (redondeara al numero mas cercano hacia arriba)
+
+** Metodo .length (NO LO ENTIENDO)
+
+* Introduccion a las funciones
+Existen 3 formas de construir una funcion:
+*function mifuncion () {}
+*var otrfuncion = function () {};
+*var yOtra = () => {};
+
+* Anatomia de una funcion
+** Toda funcion iniciara con la palabra function
+** Luego el nombre de la funcion (que describa lo que hace)
+** Luego un parentesis abierto y uno cerrado
+** Finalmente un corchete abierto y uno cerrado (entre estos corchetes ira el codigo a ejecutar)
+
+Ejemplo: function logHola () {concole.log('hola!');}
+
+luego solo debemos escribir logHola();
+
+** Argumentos (No entiendo) (se pueden agregar multiples argumetos colocando una coma entre ellos)
+
+** Declaracion "return" y Scope(alcance) (NO entiendo)
+
+** Control de flujo y operadores de comparacion (Control flow) (es una forma de que nuestra funcion verifique si algo es true, se usara l aplabra clave if)
+    function puedeManejar(edad) {if (edad > 18) {return true; } return false;}
+ 
+
+
+ 
