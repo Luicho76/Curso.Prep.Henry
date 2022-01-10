@@ -1,0 +1,21 @@
+* Undifined: Significa que lo sque se esta pidiendo no existe
+             Puede ser una variable que aun no tiene valor
+             Ya viene configurado por javascrip
+             No es strim, esta escrito sin comillas
+
+*Null: Es configurado por un desarrollador
+       Es un objeto donde los desarrolladores le dicen a otro desarrollador que no tiene ningun valor
+       Existe pero no tiene valor alguno asociado con el
+       No es strim, esta escrito sin comillas
+
+* Valores booleanos: True - False
+* Declaraciones: if
+
+* Coercion de Tipo: truthy - falsey
+
+* Operadores de comparacion: >; >=; <; <=, ===; !===
+                             "NOT"(!)
+
+*Flujo de control
+ 
+ 

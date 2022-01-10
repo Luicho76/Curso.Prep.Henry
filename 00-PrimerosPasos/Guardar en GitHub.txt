@@ -1,0 +1,5 @@
+1ro git status
+2do git add + nombre del archivo
+3ro git status
+4to git commit -m "nombre que quiera darke yo a la accion"
+5to git push
