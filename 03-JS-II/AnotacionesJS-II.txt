@@ -15,7 +15,39 @@
 
 * Operadores de comparacion: >; >=; <; <=, ===; !===
                              "NOT"(!)
-
 *Flujo de control
+  **if
+  **else if
+  **else
+(se usan con if desdepues de el) (se usan si el inicial if devuelve false)
+(La declaracion else, siempre aparecera al final de una cadena else if o if)
+
+*Operadores logicos: 
+  **&& ("Y" (AND)) esto evaluara ambas expresiones y devolvera verdadero si AMBAS son true
+    Si uno o ambas expresiones son falsas, este operador devolvera false
+  **|| ("O" (OR)) Determinara si una de la sexpresiones son true.
+    devolvera true si una o ambas expresiones es true.
+    devolvera false si AMBAS expresiones son false
+  **! ("NOT"(No)) Devolvera el valor booleano opuesto de lo que se le pasa
+Notas: La espresiones se evaluan en orden, en una declaracio && si la primera expresion es
+       false, ya no es necesario que evalue la segunda ya que AMBAs deben ser true, ya para que.
+       Lo mismo con ||, si la primera expresion es verdadero, la segunada ya no se evalua ya que
+       una de las dos dever ser true
  
- 
+       Usar parentesis cuando se use !, para evaluar primero lo que esta dentro de los mismos
+
+*Bucles "for": Se parece al operador if, pero con la siguiete estructura
+               1ro la plabra "for" luego parenteis y finalmente llaves.
+               dentro d elos parentesis deben existir 3 cosas:
+                   1ro: Declarar una variable, esto es lo que el bucle repetira
+                   2do: Una expresion condicional, esto sucedera hasta que la declaracion sea false
+                   3ro: Incrementar la variable
+                   Estas tres cosas se separan con punto y coma ;
+
+*Operador ++: abreviatura en Javascrip para establecer el valor de la variable a su valor actual mas uno.
+
+*Bucles infinitos: se debe evitar, debemos asegurar que el bucle termine, ya que si es infinito
+                   esto interrumpira el programa y bloqueara el navegador web o computadora
+
+
+
