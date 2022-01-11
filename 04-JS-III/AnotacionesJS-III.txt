@@ -1,0 +1,30 @@
+//Tipos de datos: - Strings - numeros - boleanos
+
+//arrays (arreglos): 
+	Se define usando los corchetes, recibe cualquier tipo de elemntos y cualquier tipo de datos
+	se usa para apuntar a una coleecion de tipos de datos
+        .lenght (metodo incorporado en el arrays)
+
+//acceso a elemtos en una matriz
+	Los elementos poseen posicion numero, esto se llama indice
+	el orden numerico de todas las matrices inician en cero
+	el primer elemento esta en la posicion cero, el 2do en el 1, etc
+	para acceder al elemnto, se escribe el nombre o la variable de matriz 
+	+ corchetes y dentro de estos la asignacion numerica
+
+//Asignacion
+	se asigna o reasigna cualquie indice en la matriz usando parentesis/indice y un =
+
+//.push y .pop
+	Metodos utilizados para adicionar o eliminar elementos de la matriz luego de su declaracion inicial
+	.push adiciona un elemento al final de la matriz, incrementando su longitud en 1
+	.pop elimina el ultimo elemento de la matriz disminuyendo la longoitud en 1 (popped)
+
+//.unshift y .shift
+	igual que los anteriores son metodos utilizados para adicionar o eliminar elementos de la matriz, pero en el primer elemento
+	.unshift adiciona un elemento en la primera posicion de la matriz
+	.shift elimina el primer elemento de la matriz
+
+
+// Los arrays se usan para entrar a listas de elementos
+// Las strings son secrtamente un array
