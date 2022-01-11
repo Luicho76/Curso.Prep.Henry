@@ -1,3 +1,7 @@
+// Todos los numeros son true. execpto el cero que es false
+// Todas las strings son true. execepto el string vacio: "" 
+// !== (distintos) 
+
 * Undifined: Significa que lo sque se esta pidiendo no existe
              Puede ser una variable que aun no tiene valor
              Ya viene configurado por javascrip
