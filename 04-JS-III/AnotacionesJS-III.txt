@@ -28,3 +28,5 @@
 
 // Los arrays se usan para entrar a listas de elementos
 // Las strings son secrtamente un array
+
+//El método join() une todos los elementos de una matriz (o un objeto similar a una matriz) en una cadena y devuelve esta cadena.
